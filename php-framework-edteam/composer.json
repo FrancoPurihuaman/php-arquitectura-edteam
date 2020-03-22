@@ -1,0 +1,18 @@
+{
+    "name": "franco/framework-php",
+    "authors": [
+        {
+            "name": "Franco",
+            "email": "pruebasprogramacionf@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "illuminate/database": "5.5.0"
+    },
+    "autoload": {
+        "psr-4":{
+            "App\\": "app/"
+        }
+    }
+}

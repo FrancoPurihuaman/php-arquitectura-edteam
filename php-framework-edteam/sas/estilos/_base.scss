@@ -1,0 +1,34 @@
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
+
+body {
+  padding-top: 0rem;
+  color: #5a5a5a;
+}
+
+.btn-1 {
+  @include button($color1, #fff);
+
+  border-radius: 0px;
+  color: #fff;
+}
+
+
+a.text {
+  text-decoration : none;
+
+  &:link, &:visited, &.hover { 
+    color: #fff; 
+  }
+
+  &:hover { text-decoration : none }
+}
+
+.f-wrap {
+  -webkit-word-wrap: break-word;
+  -moz-word-wrap: break-word;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+}

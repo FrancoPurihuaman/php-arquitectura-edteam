@@ -1,0 +1,12 @@
+$cssCore: false;
+$cssHelpers: false;
+$devMode: false;
+//Importar libreria ed-grid
+@import '../sas/ed-grid';
+
+//Importar styles
+@import 'estilos/variables';
+@import 'estilos/base';
+@import 'estilos/menu';
+@import 'estilos/logo';
+@import 'estilos/footer';
